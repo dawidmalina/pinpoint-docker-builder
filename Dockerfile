@@ -1,4 +1,4 @@
-FROM oberthur/docker-ubuntu:14.04.3
+FROM oberthur/docker-ubuntu:14.04.4
 
 ENV JAVA_HOME /usr/lib/jvm/java-7-oracle/
 ENV MAVEN_HOME /usr/share/maven
