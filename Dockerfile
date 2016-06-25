@@ -14,7 +14,7 @@ RUN add-apt-repository -y ppa:webupd8team/java \
   && ln -s /usr/share/maven/bin/mvn /usr/bin/mvn \
   && apt-get update \
   && echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections \
-  && apt-get install -y git net-tools oracle-java6-installer oracle-java7-installer oracle-java8-installer
+  && apt-get install -y git net-tools oracle-java6-installer oracle-java7-installer oracle-java8-installer npm
 
 RUN git clone https://github.com/naver/pinpoint.git /pinpoint
 
